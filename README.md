@@ -52,8 +52,8 @@ Functional examples are included in the
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| bucket\_name | The name of the bucket to create | `string` | n/a | yes |
-| project\_id | The project ID to deploy to | `string` | n/a | yes |
+| cluster\_id | projects/{{project}}/locations/{{location}}/clusters/{{cluster}} | `string` | n/a | yes |
+| project\_id | The project ID to host the cluster in. | `string` | n/a | yes |
 
 ## Outputs
 

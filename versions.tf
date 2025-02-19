@@ -23,5 +23,16 @@ terraform {
       source  = "hashicorp/http"
       version = "~> 3.0"
     }
+    google = {
+      source  = "hashicorp/google"
+      version = ">= 4.83.0, < 7"
+    }
+    google-beta = {
+      source  = "hashicorp/google-beta"
+      version = ">= 4.83.0, < 7"
+    }
+  }
+  provider_meta "google" {
+    module_name = "blueprints/terraform/terraform-google-gke-topology-scheduler/v0.0.1"
   }
 }
