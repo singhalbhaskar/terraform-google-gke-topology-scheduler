@@ -13,7 +13,7 @@
 # limitations under the License.
 
 module "kubectl_apply" {
-  source = "../../../../modules/management/kubectl-apply"
+  source = "github.com/singhalbhaskar/terraform-google-kubectl-apply?ref=v0.0.1"
 
   cluster_id = var.cluster_id
   project_id = var.project_id
